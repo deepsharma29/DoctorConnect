@@ -1,0 +1,300 @@
+/* Name: Deepali Sharma.
+
+   ID: c0689321
+
+  Date: 11/18/2016
+  
+  Title: screenstyle.css*/
+
+/* Style for body specifies a background color */
+body 
+{
+	background-color: #E0F0FF;
+	
+}
+
+
+/* Style for the container centers the page and specifies the width */
+#container
+ {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Cambria,"Times New Roman",serif;
+	font-size: 20px;
+	padding: 0px;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+
+header
+ {
+	font-family: Verdana, Arial, serif;
+	font-size: 25px;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000066;
+	border-radius: 1px;
+	box-shadow: 8px 8px 8px #000066;
+}
+
+
+/* Style for nav specifies text properties */
+
+nav 
+{
+	font-family: Lucida, "Times New Roman", serif;
+	clear: both;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px solid; #FFFFFF;
+}
+
+/*Style specifies padding and margins for unordered list */
+
+nav ul
+{
+	font-size:15px;
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	
+}
+/* Style for nav li speifies the background color, rounded corners,remove bullet style and applies margins and padding for list items within the navigation*/
+nav li
+{
+	background-color: #000066;
+	border-radius: 2em;
+	list-style-type:  none;
+	margin: 0.4em;
+	padding: 0.5em;
+	
+	
+}
+/* Style changes navigation link text color to white and remove the underline */
+nav li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+/* Style for the headings*/
+
+h1,h2,h3{
+	font-family: Verdana, sans-serif; padding-top: 1%; color: #0000FF;
+}
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 15px;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	border-top: solid 0.2em #009933;
+	background-color: #FFFFFF;
+	box-shadow: 8px 8px 8px #000066;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .80em;
+	text-align: center;
+	padding:2%;
+	
+}
+img
+{
+	max-width: 100%;
+	padding:1em;
+}
+
+/* Style to hide the tablet class */
+.tablet {
+	display: none;
+}
+
+/* Style that specifies to not display the equip class*/ 
+.equip {
+	display: none;
+}
+
+/* Media query for tablet layout targets screen size with a minimum width of 481px.*/  
+
+@media only screen and (min-width: 481px) {
+
+
+/* Style specifies a horizontal display for navigation links */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	
+	width: 15%;
+	white-space: nowrap;
+	
+}
+}
+/* Style clears and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+}
+
+/* Style to hide the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style specifies to display the desktop class */
+.desktop {
+	display: inline;
+}
+
+/* Style specifies a display, float, and padding for the equip class */
+.equip {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+/* Style specifies a display, list style position, and bottom margin for the items class */
+.items	{
+	display: block;
+	list-style-position: inside;
+	margin-bottom: 5em;
+}
+
+/* Style specifies to display the tablet class */
+.tablet {
+	display: block;
+}
+
+/* Style specifies a font weight and top margin for description list terms*/ 
+dt	{
+	font-weight: bold;
+	margin-top: 0.7em;
+}
+
+}
+
+/* Media query for desktop layout targets screens with a minimum width of 769px. */
+
+@media only screen and (min-width: 769px) {
+ 
+/* Style specifies width for container */
+#container {
+	width: 80%;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+    margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+	border-radius: 0;
+	border-top: solid #000000;
+	border-bottom: solid #000000;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 20%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+}
+
+}
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #FFFFFF;	
+}
+
+nav li a:visited {
+	color: #FFFF99;	
+}
+
+nav li a:hover {
+	color: #FFFF00;
+	font-style: italic;
+}
+
+/* Style specifies border, box shadow, and margins for the main element */
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+/* Style specifies a bottom margin for the items class*/ 
+.items	{
+	margin-bottom: 6em;
+}
+}
+/* Style specifies a gradient for the body element  */
+body {
+	background: -moz-linear-gradient(#FFFFFF, #FFFF99); /* Firefox */ 
+	background: -o-linear-gradient(#FFFFFF, #FFFF99); /* Opera */
+	background: -webkit-linear-gradient(#FFFFFF, #FFFF99); /* Chrome, Safari */
+	background: linear-gradient(#FFFFFF, #FFFF99); 
+	background-attachment: fixed; 
+	
+}
+article 
+{
+	 background-color:silver;
+	 border-radius:3em;
+	 color: #000000;
+	 margin-top:2px;
+	 padding:10px;
+}
+ aside
+    {
+        border:1.25 px solidblack;
+		border-radius: 15px;
+		padding-left: 3px;
+		background-color: #C0C0C0;
+    }
+	
+	.p
+	{
+		height:200px;
+		margin-left: 25px;
+		width:350px;
+		padding:10px;
+	}
+	
+	section{
+		
+		background-color:white;
+		color:white;
+		margin-top:4%;
+		padding:1%;
+	    
+	}
+	
+	
